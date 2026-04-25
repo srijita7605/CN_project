@@ -11,7 +11,7 @@ Architecture:
   - Frame protocol: [4-byte size header] + [JPEG bytes]
 
 Author  : Srijita 
-Date    : 202
+Date    : 2026
 """
 
 import socket
