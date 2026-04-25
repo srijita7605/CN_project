@@ -77,9 +77,3 @@ Main Thread
 
 ---
 
-## Project Submission Checklist
-- [x] Source code (well documented inline)
-- [x] Design diagram (in README + presentation)
-- [x] Thread handling explanation (above)
-- [ ] Demonstration (live demo with 2+ clients)
-- [ ] Performance analysis (capture FPS + latency readings)
