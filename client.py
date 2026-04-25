@@ -12,8 +12,8 @@ How it works:
   5. Decode and display in a window
   6. Repeat until 'q' is pressed
 
-Author  : Your Name
-Date    : 2025
+Author  : Srijita Choudary
+Date    : 2026
 """
 
 import socket
