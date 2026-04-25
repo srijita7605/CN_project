@@ -10,8 +10,8 @@ Architecture:
   - A single shared YOLOv8 model handles inference for all clients
   - Frame protocol: [4-byte size header] + [JPEG bytes]
 
-Author  : Your Name
-Date    : 2025
+Author  : Srijita 
+Date    : 202
 """
 
 import socket
@@ -46,9 +46,9 @@ stats_lock = threading.Lock()
 total_frames_processed = 0
 
 
-# ─────────────────────────────────────────────
+
 #  Utility: Send / Receive a framed message
-# ─────────────────────────────────────────────
+
 
 def send_frame(conn: socket.socket, data: bytes) -> None:
     """
